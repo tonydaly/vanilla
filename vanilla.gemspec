@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'vanilla/version'
 
 Gem::Specification.new do |gem|
+  gem.add_dependency 'faraday', '~> 0.8'
   gem.name          = "vanilla"
   gem.version       = Vanilla::VERSION
   gem.authors       = ["Tony Daly"]

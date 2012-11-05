@@ -1,4 +1,6 @@
+require "vanilla/core_ext/kernel"
 require "vanilla/version"
+require "vanilla/client"
 require 'vanilla/configurable'
 
 module Vanilla
