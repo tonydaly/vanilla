@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Vanilla::VERSION
   gem.authors       = ["Tony Daly"]
   gem.email         = ["tony.daly@me.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A Ruby interface to the Vanilla Forums API}
+  gem.summary       = gem.description
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
