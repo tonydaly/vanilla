@@ -1,5 +1,8 @@
 require "vanilla/version"
+require 'vanilla/configurable'
 
 module Vanilla
-  # Your code goes here...
+  class << self
+    include Vanilla::Configurable
+  end
 end
