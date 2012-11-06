@@ -5,7 +5,11 @@ require 'vanilla/version'
 
 Gem::Specification.new do |gem|
   gem.add_dependency 'faraday', '~> 0.8'
+  gem.add_dependency "faraday_middleware", "~> 0.9"
+  gem.add_dependency 'rash', "~> 0.3"
+  gem.add_dependency "json", "~> 1.7"
   gem.add_development_dependency "rspec", "~> 2.11"
+  gem.add_development_dependency 'webmock', "~> 1.8"
   gem.name          = "vanilla"
   gem.version       = Vanilla::VERSION
   gem.authors       = ["Tony Daly"]

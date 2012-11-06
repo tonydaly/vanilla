@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Vanilla::Client do
   subject do
-    client = Vanilla::Client.new(endpoint: 'EP', access_token: "AT")
+    client = Vanilla::Client.new(endpoint: 'https://something.vanillaforums.com', access_token: "AT")
     client.class_eval{public *Vanilla::Client.private_instance_methods}
     client
   end
