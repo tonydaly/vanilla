@@ -6,7 +6,7 @@ module Vanilla
 
     class << self
       def all
-        categories_list
+        get("/api/v1/categories/list.json").categories
       end
 
       def create

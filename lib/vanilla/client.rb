@@ -3,11 +3,9 @@ require 'faraday_middleware'
 require 'json'
 require "rash"
 require "vanilla/resource"
-require 'vanilla/api'
 
 module Vanilla
   class Client
-    include Vanilla::API
 
     # Initializes a new Client object
     #
