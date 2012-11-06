@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Configuration
+
+The Vanilla Forums API requires that all API calls should be made against your forum’s ‘Vanilla URL’, for example: https://mycompany.vanillaforums.com.
+
+To setup your global configuration you can pass options as a block to the `Vanilla.configure` method.
+
+```ruby
+Twitter.configure do |config|
+  config.endpoint = "https://mycompany.vanillaforums.com"
+  config.access_token = YOUR_ACCESS_TOKEN
+end
+```
 
 ## Contributing
 
