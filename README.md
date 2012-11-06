@@ -1,6 +1,8 @@
 # Vanilla
 
-TODO: Write a gem description
+A Ruby interface to the Vanilla Forums API.
+
+WIP
 
 ## Installation
 
